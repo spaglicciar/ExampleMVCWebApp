@@ -19,17 +19,7 @@ namespace ExampleMVCWebApp.Controllers
             ViewBag.Message = "Your application description page.";
 
             return View();
-        }
-
-        public ActionResult Create(PersonaViewModel model)
-        {
-            ViewBag.Message = "Your application creation page.";
-            model.PersonaId = PersonaViewModel.NextId;
-
-            return View();
-        }
-
-       
+        }   
 
         public ActionResult Contact()
         {
